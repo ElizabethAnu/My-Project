@@ -1,5 +1,5 @@
                     
-    var slideshows = document.querySelectorAll('[data-component="slideshow"]');
+  var slideshows = document.querySelectorAll('[data-component="slideshow"]');
 slideshows.forEach(initSlideShow);
 
 function initSlideShow(slideshow) {
